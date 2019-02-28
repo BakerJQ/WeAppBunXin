@@ -15,9 +15,9 @@ const config = {
   alias: {
     '@/channel': path.resolve(__dirname, '..', 'src/channel/' + channelInfo.channel),
     '@/assets': path.resolve(__dirname, '..', 'src/channel/' + channelInfo.channel + '/assets'),
+    '@/app_style': path.resolve(__dirname, '..', 'src/channel/' + channelInfo.channel + '/app.less'),
     '@/theme': path.resolve(__dirname, '..', 'src/theme/theme1'),
     '@/diff': path.resolve(__dirname, '..', 'src/config/diff'),
-    '@/app_style': path.resolve(__dirname, '..', 'src/app.less'),
   },
   defineConstants: {
     ASSETS_PATH: 'channel/'+channelInfo.channel+'/assets',

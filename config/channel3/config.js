@@ -1,5 +1,3 @@
-const path = require("path")
-
 module.exports = {
   env: {
     channel: 'channel3'
@@ -9,6 +7,5 @@ module.exports = {
     PAGE_MANAGE: 'channel/channel3/pages/index/Manage',
   },
   alias: {
-    '@/app_style': path.resolve(__dirname, '..', '../src/channel/channel3/app.less'),
   }
 }

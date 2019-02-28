@@ -10,6 +10,5 @@ module.exports = {
   alias: {
     '@/theme': path.resolve(__dirname, '..', '../src/theme/theme2'),
     '@/diff': path.resolve(__dirname, '..', '../src/channel/channel2/diff'),
-    '@/app_style': path.resolve(__dirname, '..', '../src/channel/channel2/app.less'),
   }
 }

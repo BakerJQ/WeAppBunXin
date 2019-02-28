@@ -15,6 +15,19 @@
 开发环境的搭建请参考：
 [Taro 安装及使用](https://nervjs.github.io/taro/docs/GETTING-STARTED.html)
 
+## 使用方式
+
+修改config/channel.js内的channel字段，该项目可用"channel1"、"channel2"、"channel3"。
+
+Clone代码到本地后，根据Taro官方文档执行编译。或运行package.json中的 
+```
+"dev:weapp": "npm run build:weapp -- --watch"
+```
+
+使用小程序开发工具打开生成的dist_channel1目录（如果channel.js内配置的是channel2，则为dist_channel2目录）
+
+具体的项目介绍请看文章：[小程序开发之影分身术](https://www.bakerjq.com/2019/02/28/20190228_WeAppBunXin/)
+
 ## *License*
 
 WeAppBunXin is released under the Apache 2.0 license.

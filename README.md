@@ -26,7 +26,7 @@ Clone代码到本地后，根据Taro官方文档执行编译。或运行package.
 
 使用小程序开发工具打开生成的dist_channel1目录（如果channel.js内配置的是channel2，则为dist_channel2目录）
 
-具体的项目介绍请看文章：[小程序开发之影分身术](https://www.bakerjq.com/2019/02/28/20190228_WeAppBunXin/)
+具体的项目介绍请看文章：[小程序开发之影分身术](https://juejin.im/post/5c788d28e51d4560a82be8d2)
 
 ## *License*
 

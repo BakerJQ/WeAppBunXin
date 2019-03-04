@@ -8,7 +8,7 @@ import DevItem from "../../components/DevItem";
 
 class Dev extends Component {
   config: Config = {
-    navigationBarTitleText: '开发'
+    navigationBarTitleText: DEV_TITLE
   }
 
   constructor() {

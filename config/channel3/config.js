@@ -5,6 +5,7 @@ module.exports = {
   defineConstants: {
     MAIN_COLOR: '#d81e06',
     PAGE_MANAGE: 'channel/channel3/pages/index/Manage',
+    DEV_TITLE: 'Channel3DEV'
   },
   alias: {
   }

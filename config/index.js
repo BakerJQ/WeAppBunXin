@@ -23,6 +23,7 @@ const config = {
     ASSETS_PATH: 'channel/'+channelInfo.channel+'/assets',
     MAIN_COLOR: '#000000',
     PAGE_MANAGE: 'pages/index/Manage',
+    DEV_TITLE: '开发'
   },
   plugins: {
     babel: {

@@ -5,7 +5,8 @@ module.exports = {
     channel: 'channel2'
   },
   defineConstants: {
-    MAIN_COLOR: '#1296db'
+    MAIN_COLOR: '#1296db',
+    DEV_TITLE: 'Channel2DEV'
   },
   alias: {
     '@/theme': path.resolve(__dirname, '..', '../src/theme/theme2'),

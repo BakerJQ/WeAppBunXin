@@ -1,3 +1,3 @@
 module.exports = {
-  channel: 'channel3'
+  channel: 'channel2'
 }
